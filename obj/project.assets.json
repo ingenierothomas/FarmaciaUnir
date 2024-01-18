@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fthomas\\source\\repos\\FarmaciaUnir\\FarmaciaUnir.csproj",
+      "projectUniqueName": "D:\\UNI2\\FarmaciaUnir\\FarmaciaUnir.csproj",
       "projectName": "FarmaciaUnir",
-      "projectPath": "C:\\Users\\fthomas\\source\\repos\\FarmaciaUnir\\FarmaciaUnir.csproj",
+      "projectPath": "D:\\UNI2\\FarmaciaUnir\\FarmaciaUnir.csproj",
       "packagesPath": "C:\\Users\\fthomas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fthomas\\source\\repos\\FarmaciaUnir\\obj\\",
+      "outputPath": "D:\\UNI2\\FarmaciaUnir\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

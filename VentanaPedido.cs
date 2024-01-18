@@ -23,13 +23,14 @@ namespace FarmaciaUnir
             bool principal = this.chkPrincipal.Checked;
             bool secundaria = this.chkSecundaria.Checked;
 
-            if(nombreMedicamento == "")
+            if (nombreMedicamento == "")
             {
                 lblErrorNombre.Visible = true;
                 errores = true;
             }
 
-            if(tipoMedicamento == -1) {
+            if (tipoMedicamento == -1)
+            {
                 lblErrorTipo.Visible = true;
                 errores = true;
             }
@@ -37,24 +38,25 @@ namespace FarmaciaUnir
             int enteroPositivo;
             bool isNumber = int.TryParse(cantidad, out enteroPositivo);
 
-            if(isNumber == false || enteroPositivo <=0)
+            if (isNumber == false || enteroPositivo <= 0)
             {
                 lblErrorCantidad.Visible = true;
                 errores = true;
             }
 
-            if(distribuidor == -1)
+            if (distribuidor == -1)
             {
                 lblErrorDistribuidor.Visible = true;
                 errores = true;
             }
 
-            if(principal == false && secundaria == false) { 
+            if (principal == false && secundaria == false)
+            {
                 lblErrorSucursal.Visible = true;
                 errores = true;
             }
 
-            if(!errores)
+            if (!errores)
             {
                 VentanaResumenPedido ventanaPedidoResumen = new VentanaResumenPedido(this.txtNombreMedicamento, this.cmbTipoMedicamento, this.txtCantidad, this.cmbDistribuidor, this.chkPrincipal, this.chkSecundaria, this);
 
@@ -73,9 +75,9 @@ namespace FarmaciaUnir
         {
             this.lblErrorCantidad.Visible = false;
             this.lblErrorDistribuidor.Visible = false;
-            this.lblErrorNombre.Visible=false;
-            this.lblErrorSucursal.Visible=false;
-            this.lblErrorTipo.Visible=false;
+            this.lblErrorNombre.Visible = false;
+            this.lblErrorSucursal.Visible = false;
+            this.lblErrorTipo.Visible = false;
         }
 
         private void limpiarFormulario()

@@ -68,9 +68,9 @@
             // 
             // btnCancelarPedido
             // 
-            btnCancelarPedido.Location = new System.Drawing.Point(569, 220);
+            btnCancelarPedido.Location = new System.Drawing.Point(531, 220);
             btnCancelarPedido.Name = "btnCancelarPedido";
-            btnCancelarPedido.Size = new System.Drawing.Size(102, 23);
+            btnCancelarPedido.Size = new System.Drawing.Size(125, 23);
             btnCancelarPedido.TabIndex = 15;
             btnCancelarPedido.Text = "Cancelar Pedido";
             btnCancelarPedido.UseVisualStyleBackColor = true;
@@ -78,9 +78,9 @@
             // 
             // btnEnviarPedido
             // 
-            btnEnviarPedido.Location = new System.Drawing.Point(687, 220);
+            btnEnviarPedido.Location = new System.Drawing.Point(662, 220);
             btnEnviarPedido.Name = "btnEnviarPedido";
-            btnEnviarPedido.Size = new System.Drawing.Size(99, 23);
+            btnEnviarPedido.Size = new System.Drawing.Size(124, 23);
             btnEnviarPedido.TabIndex = 16;
             btnEnviarPedido.Text = "Enviar Pedido";
             btnEnviarPedido.UseVisualStyleBackColor = true;

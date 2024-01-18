@@ -103,41 +103,41 @@ namespace FarmaciaUnir
             // 
             // txtNombreMedicamento
             // 
-            txtNombreMedicamento.Location = new System.Drawing.Point(174, 102);
+            txtNombreMedicamento.Location = new System.Drawing.Point(189, 102);
             txtNombreMedicamento.Name = "txtNombreMedicamento";
-            txtNombreMedicamento.Size = new System.Drawing.Size(406, 23);
+            txtNombreMedicamento.Size = new System.Drawing.Size(391, 23);
             txtNombreMedicamento.TabIndex = 1;
             // 
             // txtCantidad
             // 
-            txtCantidad.Location = new System.Drawing.Point(174, 211);
+            txtCantidad.Location = new System.Drawing.Point(189, 211);
             txtCantidad.Name = "txtCantidad";
-            txtCantidad.Size = new System.Drawing.Size(406, 23);
+            txtCantidad.Size = new System.Drawing.Size(391, 23);
             txtCantidad.TabIndex = 3;
             // 
             // cmbTipoMedicamento
             // 
             cmbTipoMedicamento.FormattingEnabled = true;
             cmbTipoMedicamento.Items.AddRange(new object[] { "Analgésico", "Analéctico", "Anestésico", "Antiácido", "Antidepresivo", "Antibióticos" });
-            cmbTipoMedicamento.Location = new System.Drawing.Point(174, 157);
+            cmbTipoMedicamento.Location = new System.Drawing.Point(189, 157);
             cmbTipoMedicamento.Name = "cmbTipoMedicamento";
-            cmbTipoMedicamento.Size = new System.Drawing.Size(406, 23);
+            cmbTipoMedicamento.Size = new System.Drawing.Size(391, 23);
             cmbTipoMedicamento.TabIndex = 2;
             // 
             // cmbDistribuidor
             // 
             cmbDistribuidor.FormattingEnabled = true;
             cmbDistribuidor.Items.AddRange(new object[] { "Cofarma", "Empsephar", "Cemefar" });
-            cmbDistribuidor.Location = new System.Drawing.Point(174, 263);
+            cmbDistribuidor.Location = new System.Drawing.Point(189, 263);
             cmbDistribuidor.Name = "cmbDistribuidor";
-            cmbDistribuidor.Size = new System.Drawing.Size(406, 23);
+            cmbDistribuidor.Size = new System.Drawing.Size(391, 23);
             cmbDistribuidor.TabIndex = 4;
             // 
             // chkPrincipal
             // 
             chkPrincipal.AutoSize = true;
             chkPrincipal.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            chkPrincipal.Location = new System.Drawing.Point(174, 311);
+            chkPrincipal.Location = new System.Drawing.Point(189, 311);
             chkPrincipal.Name = "chkPrincipal";
             chkPrincipal.Size = new System.Drawing.Size(73, 19);
             chkPrincipal.TabIndex = 5;
@@ -148,7 +148,7 @@ namespace FarmaciaUnir
             // 
             chkSecundaria.AutoSize = true;
             chkSecundaria.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            chkSecundaria.Location = new System.Drawing.Point(302, 311);
+            chkSecundaria.Location = new System.Drawing.Point(317, 311);
             chkSecundaria.Name = "chkSecundaria";
             chkSecundaria.Size = new System.Drawing.Size(87, 19);
             chkSecundaria.TabIndex = 6;
@@ -192,7 +192,7 @@ namespace FarmaciaUnir
             lblErrorNombre.AutoSize = true;
             lblErrorNombre.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             lblErrorNombre.ForeColor = System.Drawing.Color.Red;
-            lblErrorNombre.Location = new System.Drawing.Point(174, 128);
+            lblErrorNombre.Location = new System.Drawing.Point(189, 128);
             lblErrorNombre.Name = "lblErrorNombre";
             lblErrorNombre.Size = new System.Drawing.Size(143, 15);
             lblErrorNombre.TabIndex = 13;
@@ -204,7 +204,7 @@ namespace FarmaciaUnir
             lblErrorTipo.AutoSize = true;
             lblErrorTipo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             lblErrorTipo.ForeColor = System.Drawing.Color.Red;
-            lblErrorTipo.Location = new System.Drawing.Point(174, 183);
+            lblErrorTipo.Location = new System.Drawing.Point(189, 183);
             lblErrorTipo.Name = "lblErrorTipo";
             lblErrorTipo.Size = new System.Drawing.Size(230, 15);
             lblErrorTipo.TabIndex = 14;
@@ -216,7 +216,7 @@ namespace FarmaciaUnir
             lblErrorCantidad.AutoSize = true;
             lblErrorCantidad.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             lblErrorCantidad.ForeColor = System.Drawing.Color.Red;
-            lblErrorCantidad.Location = new System.Drawing.Point(174, 237);
+            lblErrorCantidad.Location = new System.Drawing.Point(189, 237);
             lblErrorCantidad.Name = "lblErrorCantidad";
             lblErrorCantidad.Size = new System.Drawing.Size(215, 15);
             lblErrorCantidad.TabIndex = 15;
@@ -228,7 +228,7 @@ namespace FarmaciaUnir
             lblErrorDistribuidor.AutoSize = true;
             lblErrorDistribuidor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             lblErrorDistribuidor.ForeColor = System.Drawing.Color.Red;
-            lblErrorDistribuidor.Location = new System.Drawing.Point(174, 289);
+            lblErrorDistribuidor.Location = new System.Drawing.Point(189, 289);
             lblErrorDistribuidor.Name = "lblErrorDistribuidor";
             lblErrorDistribuidor.Size = new System.Drawing.Size(245, 15);
             lblErrorDistribuidor.TabIndex = 16;
@@ -240,7 +240,7 @@ namespace FarmaciaUnir
             lblErrorSucursal.AutoSize = true;
             lblErrorSucursal.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             lblErrorSucursal.ForeColor = System.Drawing.Color.Red;
-            lblErrorSucursal.Location = new System.Drawing.Point(174, 333);
+            lblErrorSucursal.Location = new System.Drawing.Point(188, 333);
             lblErrorSucursal.Name = "lblErrorSucursal";
             lblErrorSucursal.Size = new System.Drawing.Size(216, 15);
             lblErrorSucursal.TabIndex = 17;
