@@ -23,6 +23,9 @@ namespace FarmaciaUnir
             bool principal = this.chkPrincipal.Checked;
             bool secundaria = this.chkSecundaria.Checked;
 
+            int enteroPositivo;
+            bool isNumber = int.TryParse(cantidad, out enteroPositivo);
+
             if (nombreMedicamento == "")
             {
                 lblErrorNombre.Visible = true;
@@ -34,9 +37,6 @@ namespace FarmaciaUnir
                 lblErrorTipo.Visible = true;
                 errores = true;
             }
-
-            int enteroPositivo;
-            bool isNumber = int.TryParse(cantidad, out enteroPositivo);
 
             if (isNumber == false || enteroPositivo <= 0)
             {
